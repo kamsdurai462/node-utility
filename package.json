@@ -1,17 +1,15 @@
 {
   "name": "node-utility",
   "version": "1.0.0",
-  "description": "AEM utility scripts: URL/404 tester and HTML comparison tools",
+  "description": "AEM utility scripts: URL/404 tester and HTML fragment comparison tool",
   "main": "src/test-urls.js",
   "bin": {
     "test-urls": "./src/test-urls.js",
-    "compare-html": "./src/compare-html.js",
-    "html-pretty-print": "./src/html-pretty-print.js"
+    "compare-html": "./src/compare-html.js"
   },
   "scripts": {
     "test-urls": "node src/test-urls.js",
-    "compare-html": "node src/compare-html.js",
-    "html-pretty-print": "node src/html-pretty-print.js"
+    "compare-html": "node src/compare-html.js"
   },
   "engines": {
     "node": ">=18"
