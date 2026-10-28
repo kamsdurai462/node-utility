@@ -1,0 +1,7 @@
+node_modules/
+
+# Generated outputs
+*.csv
+*-formatted.html
+html-diff-report.html
+report.html

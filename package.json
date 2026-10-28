@@ -1,0 +1,25 @@
+{
+  "name": "node-utility",
+  "version": "1.0.0",
+  "description": "AEM utility scripts: URL/404 tester and HTML comparison tools",
+  "main": "src/test-urls.js",
+  "bin": {
+    "test-urls": "./src/test-urls.js",
+    "compare-html": "./src/compare-html.js",
+    "html-pretty-print": "./src/html-pretty-print.js"
+  },
+  "scripts": {
+    "test-urls": "node src/test-urls.js",
+    "compare-html": "node src/compare-html.js",
+    "html-pretty-print": "node src/html-pretty-print.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "diff": "^9.0.0",
+    "js-beautify": "^2.0.3"
+  }
+}
